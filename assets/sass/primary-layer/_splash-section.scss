@@ -1,0 +1,90 @@
+.splash-section {
+  @extend section;
+
+  height: 100vh;
+
+  background: {
+    image: url("../assets/img/splash.jpg");
+    position: center;
+    size: cover;
+  }
+
+  .content {
+    justify-content: space-between;
+
+    > .header {
+
+      display: flex;
+      width: 100%;
+      margin-top: 20px;
+
+      .title {
+        font-family: electromanregular;
+        font-size: 2em;
+        letter-spacing: 3px;
+
+        margin: {
+          left: 20px;
+        }
+      }
+
+      .pages {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+
+        font-size: 1.1em;
+
+        margin: {
+          right: 50px;
+        }
+
+        .page {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    > .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-top: 50px;
+
+      img {
+        width: 50%;
+        //height: 100px;
+      }
+    }
+
+    > .description {
+      height: 30vh;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: flex-start;
+
+      h1 {
+        font-size: 2.1em;
+        margin-top: 50px;
+      }
+
+      p {
+        margin-top: 20px;
+        color: #888888;
+        font-size: 1.2em;
+        font-style: italic;
+      }
+    }
+  }
+
+  .trim {
+    min-height: 70px;
+  }
+
+}

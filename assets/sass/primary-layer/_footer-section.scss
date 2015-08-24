@@ -1,0 +1,19 @@
+.footer-section {
+  @extend section;
+
+  height: 40px;
+
+  flex-direction: row;
+  //align-items: center;
+  justify-content: center;
+
+  p {
+    color: grey;
+
+  }
+
+  .name {
+    text-decoration: none;
+    color: white;
+  }
+}

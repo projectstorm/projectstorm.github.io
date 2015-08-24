@@ -1,0 +1,54 @@
+@import '../../node_modules/normalize.scss/normalize';
+@import "fonts";
+
+svg {
+  style: white;
+  fill: white;
+}
+
+body {
+
+  font-size: 100%;
+
+  background: {
+    color: #1d1d1d;
+  }
+
+  font-family: robotothin;
+  color: white;
+
+  .layers {
+    section {
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .content {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+       }
+
+      .trim {
+        width: 100%;
+
+        svg {
+          display: block;
+        }
+      }
+    }
+
+    .primary-layer {
+      @import "primary-layer/splash-section";
+      @import "primary-layer/principals-section";
+      @import "primary-layer/showcase-section";
+      @import "primary-layer/github-section";
+      @import "primary-layer/footer-section";
+    }
+  }
+}

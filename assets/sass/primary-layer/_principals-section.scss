@@ -1,0 +1,53 @@
+.principals-section {
+  @extend section;
+
+  background: #e5e5e5;
+  color: #444444;
+
+  height: 550px;
+
+  .content {
+    justify-content: center;
+
+    .header {
+
+      h1 {
+        font-size: 2.4em;
+      }
+    }
+
+    .principals {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      margin-top: 30px;
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        margin: {
+          left: 50px;
+          right: 50px;
+          bottom: 50px;
+        }
+
+        .principal {
+          border-right: none;
+          border-width: 1px;
+          width: 20%;
+          max-width: 20%;
+
+          border-image: linear-gradient(#d200ff, #00c6ff) 0 0 0 1;
+
+          padding-left: 30px;
+          padding-right: 30px;
+
+        }
+      }
+    }
+  }
+
+}

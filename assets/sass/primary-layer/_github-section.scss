@@ -1,0 +1,28 @@
+.github-section {
+  @extend section;
+
+  height: 350px;
+
+  background: {
+    image: linear-gradient(
+                    rgba(210, 0, 255, 0.4),
+                    rgba(0, 198, 255, 0.4)
+    ), url("../assets/img/splash.jpg");
+    position: center;
+    size: cover;
+  }
+
+  .content {
+    justify-content: center;
+
+
+    .blurb {
+      text-align: center;
+    }
+
+    .social {
+      margin-top: 40px;
+      width: 70px;
+    }
+  }
+}

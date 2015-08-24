@@ -1,0 +1,33 @@
+.showcase-section {
+  @extend section;
+
+  height: 350px;
+
+  .content {
+    flex-direction: row;
+    justify-content: center;
+
+    .blurb {
+
+      max-width: 25%;
+
+      text-align: center;
+      h1 {
+        font-size: 4em;
+      }
+
+      p {
+        color: grey;
+      }
+    }
+
+    .plus {
+
+      width: 100px;
+      height: 100px;
+      margin: 80px;
+    }
+  }
+
+
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1391" height="343" viewBox="0 0 1391 343">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 61.667px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: "Roboto-Thin";
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 402.667px;
+      }
+
+      .cls-4 {
+        font-family: "ElectroMan";
+      }
+    </style>
+  </defs>
+  <g id="artboard-1">
+    <text x="306" y="329" class="cls-1"><tspan class="cls-2">aggressively moving forward</tspan></text>
+    <text x="1" y="161" class="cls-3"><tspan class="cls-4">storm</tspan></text>
+  </g>
+</svg>
