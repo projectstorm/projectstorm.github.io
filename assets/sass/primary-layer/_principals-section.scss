@@ -4,12 +4,14 @@
   background: #e5e5e5;
   color: #444444;
 
-  height: 550px;
+  height: 700px;
 
   .content {
-    justify-content: center;
+    justify-content: space-around;
 
     .header {
+
+      flex: 1;
 
       h1 {
         font-size: 2.4em;
@@ -17,34 +19,39 @@
     }
 
     .principals {
+
+      flex: 3;
+
       display: flex;
       flex-direction: column;
       width: 100%;
+      justify-content: space-between;
 
-      margin-top: 30px;
+      //margin-top: 30px;
 
       .row {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: stretch;
+        //align-content: stretch;
 
         margin: {
           left: 50px;
           right: 50px;
-          bottom: 50px;
+          //bottom: 50px;
         }
 
         .principal {
+          flex: 1;
           border-right: none;
           border-width: 1px;
-          width: 20%;
-          max-width: 20%;
+          //height: 100%;
 
           border-image: linear-gradient(#d200ff, #00c6ff) 0 0 0 1;
 
           padding-left: 30px;
           padding-right: 30px;
-
         }
       }
     }

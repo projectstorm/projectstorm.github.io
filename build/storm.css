@@ -495,14 +495,21 @@ body {
   body .layers .primary-layer .principals-section {
     background: #e5e5e5;
     color: #444444;
-    height: 550px; }
+    height: 700px; }
     body .layers .primary-layer .principals-section .content {
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-      body .layers .primary-layer .principals-section .content .header h1 {
-        font-size: 2.4em; }
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      body .layers .primary-layer .principals-section .content .header {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1; }
+        body .layers .primary-layer .principals-section .content .header h1 {
+          font-size: 2.4em; }
       body .layers .primary-layer .principals-section .content .principals {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
@@ -510,7 +517,9 @@ body {
         -ms-flex-direction: column;
         flex-direction: column;
         width: 100%;
-        margin-top: 30px; }
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
         body .layers .primary-layer .principals-section .content .principals .row {
           display: -webkit-flex;
           display: -ms-flexbox;
@@ -521,14 +530,17 @@ body {
           -webkit-justify-content: space-around;
           -ms-flex-pack: distribute;
           justify-content: space-around;
+          -webkit-align-items: stretch;
+          -ms-flex-align: stretch;
+          align-items: stretch;
           margin-left: 50px;
-          margin-right: 50px;
-          margin-bottom: 50px; }
+          margin-right: 50px; }
           body .layers .primary-layer .principals-section .content .principals .row .principal {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
             border-right: none;
             border-width: 1px;
-            width: 20%;
-            max-width: 20%;
             border-image: linear-gradient(#d200ff, #00c6ff) 0 0 0 1;
             padding-left: 30px;
             padding-right: 30px; }
