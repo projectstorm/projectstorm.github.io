@@ -30,6 +30,7 @@
 			
 			h1 {
 				font-size: 4em;
+				margin: 0;
 				
 				@include phone{
 					font-size: 2em;

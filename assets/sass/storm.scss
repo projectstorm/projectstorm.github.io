@@ -13,61 +13,60 @@ $setting_tablet_width: 1024px;
 }
 
 svg {
-  style: white;
-  fill: white;
+	style: white;
+	fill: white;
 }
 
 body {
-  font-size: 100%;
-  color: white;
-  
-  background: {
-    color: #1d1d1d;
-  }
+	font-size: 100%;
+	color: white;
+	background: {
+		color: #1d1d1d;
+	}
 
-  *{
-	font-family: Roboto;
-	font-weight: 100 !important;
-  }
+	*{
+		font-family: Roboto;
+		font-weight: 100 !important;
+	}
 
 
-  .layers {
-    section {
-      width: 100%;
+	.layers {
+		section {
+			width: 100%;
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 
-      .content {
-        flex: 1;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-       }
+			.content {
+				flex: 1;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: center;
+			}
 
-      .trim {
-        width: 100%;
-		margin-bottom: -1px;
-		@include phone{
-			svg{
-				height: 20px !important;
+			.trim {
+				width: 100%;
+				margin-bottom: -1px;
+				@include phone{
+					svg{
+						height: 20px !important;
+					}
+				}
+				svg {
+					display: block;
+				}
 			}
 		}
-        svg {
-          display: block;
-        }
-      }
-    }
 
-    .primary-layer {
-      @import "primary-layer/splash-section";
-      @import "primary-layer/principals-section";
-      @import "primary-layer/showcase-section";
-      @import "primary-layer/github-section";
-      @import "primary-layer/footer-section";
-    }
-  }
+		.primary-layer {
+			@import "primary-layer/splash-section";
+			@import "primary-layer/principals-section";
+			@import "primary-layer/showcase-section";
+			@import "primary-layer/github-section";
+			@import "primary-layer/footer-section";
+		}
+	}
 }

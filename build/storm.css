@@ -603,10 +603,16 @@ body {
           -webkit-justify-content: flex-end;
           -ms-flex-pack: end;
           justify-content: flex-end;
-          font-size: 1.1em;
-          margin-right: 50px; }
+          font-size: 1.1em; }
+          @media (min-width: 600px) {
+            body .layers .primary-layer .splash-section .content > .header .pages {
+              margin-right: 50px; } }
           body .layers .primary-layer .splash-section .content > .header .pages .page {
-            margin-right: 20px; }
+            margin-right: 20px;
+            text-decoration: none;
+            color: white; }
+            body .layers .primary-layer .splash-section .content > .header .pages .page:visited {
+              color: white; }
       body .layers .primary-layer .splash-section .content > .hero {
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -751,7 +757,8 @@ body {
         body .layers .primary-layer .showcase-section .content .blurb {
           max-width: 80%; } }
       body .layers .primary-layer .showcase-section .content .blurb h1 {
-        font-size: 4em; }
+        font-size: 4em;
+        margin: 0; }
         @media (max-width: 600px) {
           body .layers .primary-layer .showcase-section .content .blurb h1 {
             font-size: 2em; } }
