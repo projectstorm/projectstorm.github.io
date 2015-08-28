@@ -43,6 +43,13 @@
 				box-sizing: border-box;
 				margin-bottom: 20px;
 				
+				h2{
+					@include phone{
+						padding-bottom: 20px;
+						font-weight: 300 !important;
+					}
+				}
+				
 				
 				@include desktop{
 					max-width: 300px;
@@ -52,11 +59,11 @@
 					padding: 0px;
 					margin: 15px;
 					border-image: linear-gradient(90deg,#d200ff, #00c6ff) 0 0 1 0;
+					&:last-child{
+						border: none !important;
+					}
 					padding-bottom: 20px;
 					text-align: center;
-					h2{
-						padding-bottom: 20px;
-					}
 				}
 			}
 		}

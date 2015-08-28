@@ -1,11 +1,13 @@
 .showcase-section {
 	@extend section;
+	
 
 	.content {
 		flex-direction: row;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		padding-top: 40px;
 		
 		@include phone{
 			padding-bottom: 50px;

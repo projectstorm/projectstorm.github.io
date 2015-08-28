@@ -713,6 +713,10 @@ body {
           padding: 10px 20px;
           box-sizing: border-box;
           margin-bottom: 20px; }
+          @media (max-width: 600px) {
+            body .layers .primary-layer .principals-section .content .principals .principal h2 {
+              padding-bottom: 20px;
+              font-weight: 300 !important; } }
           @media (min-width: 600px) {
             body .layers .primary-layer .principals-section .content .principals .principal {
               max-width: 300px; } }
@@ -723,8 +727,8 @@ body {
               border-image: linear-gradient(90deg, #d200ff, #00c6ff) 0 0 1 0;
               padding-bottom: 20px;
               text-align: center; }
-              body .layers .primary-layer .principals-section .content .principals .principal h2 {
-                padding-bottom: 20px; } }
+              body .layers .primary-layer .principals-section .content .principals .principal:last-child {
+                border: none !important; } }
   body .layers .primary-layer .showcase-section .content {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
@@ -737,7 +741,8 @@ body {
     flex-wrap: wrap;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    padding-top: 40px; }
     @media (max-width: 600px) {
       body .layers .primary-layer .showcase-section .content {
         padding-bottom: 50px; } }
