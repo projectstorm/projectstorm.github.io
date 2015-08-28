@@ -1,90 +1,111 @@
 .splash-section {
-  @extend section;
+	@extend section;
 
-  height: 100vh;
+	@include desktop{
+		height: 100vh;
+	}
 
-  background: {
-    image: url("../assets/img/splash.jpg");
-    position: center;
-    size: cover;
-  }
+	background: {
+		image: url("../assets/img/splash.jpg");
+		position: center;
+		size: cover;
+	}
 
-  .content {
-    justify-content: space-between;
+	.content {
+		justify-content: space-between;
 
-    > .header {
+		> .header {
 
-      display: flex;
-      width: 100%;
-      margin-top: 20px;
+			display: flex;
+			width: 100%;
+			margin-top: 20px;
 
-      .title {
-        font-family: electromanregular;
-        font-size: 2em;
-        letter-spacing: 3px;
+			.title {
+				font-family: electromanregular;
+				font-size: 2em;
+				letter-spacing: 3px;
 
-        margin: {
-          left: 20px;
-        }
-      }
+				margin: {
+					left: 20px;
+				}
+			}
 
-      .pages {
-        flex: 1;
-        display: flex;
-        justify-content: flex-end;
+			.pages {
+				flex: 1;
+				display: flex;
+				justify-content: flex-end;
 
-        font-size: 1.1em;
+				font-size: 1.1em;
 
-        margin: {
-          right: 50px;
-        }
+				margin: {
+					right: 50px;
+				}
 
-        .page {
-          margin-right: 20px;
-        }
-      }
-    }
+				.page {
+					margin-right: 20px;
+				}
+			}
+		}
 
-    > .hero {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+		> .hero {
+			display: flex;
+			align-items: center;
+			justify-content: center;
 
-      margin-top: 50px;
+			margin-top: 50px;
 
-      img {
-        width: 50%;
-        //height: 100px;
-      }
-    }
+			img {
+				width: 50%;
+				@include phone{
+					width: 80% !important;
+					margin-bottom: 30px;
+					margin-top: 30px;
+				}
+				//height: 100px;
+			}
+		}
 
-    > .description {
-      height: 30vh;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
+		> .description {
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.4);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			justify-content: flex-start;
+			
+			@include desktop{
+				height: 30vh;
+			}
+			
+			
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      justify-content: flex-start;
+			h1 {
+				font-size: 2.1em;
+				margin-top: 50px;
+				
+				@include phone{
+					font-size: 1.4em;
+					max-width: 80%;
+				}
+			}
 
-      h1 {
-        font-size: 2.1em;
-        margin-top: 50px;
-      }
-
-      p {
-        margin-top: 20px;
-        color: #888888;
-        font-size: 1.2em;
-        font-style: italic;
-      }
-    }
-  }
-
-  .trim {
-    min-height: 70px;
-  }
-
+			p {
+				margin-top: 20px;
+				color: #888888;
+				font-size: 1.2em;
+				font-style: italic;
+				
+				@include phone{
+					font-size: 1.0em;
+					padding-bottom: 30px;
+				}
+				
+				@include tablet{
+					font-size: 1.0em;
+					padding-bottom: 30px;
+				}
+			}
+		}
+	}
 }

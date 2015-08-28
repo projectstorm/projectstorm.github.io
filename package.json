@@ -6,7 +6,8 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
     "gulp-sass": "^2.0.4",
-	"gulp-autoprefixer": "^2.3.1"
+    "normalize.scss": "^0.1.0"
   }
 }

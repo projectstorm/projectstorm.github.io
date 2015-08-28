@@ -1,33 +1,74 @@
 .showcase-section {
-  @extend section;
+	@extend section;
 
-  height: 350px;
+	.content {
+		flex-direction: row;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		
+		@include phone{
+			padding-bottom: 50px;
+		}
+		
+		@include tablet{
+			padding-bottom: 50px;
+		}
 
-  .content {
-    flex-direction: row;
-    justify-content: center;
+		.blurb {
+			flex-grow: 1;
+			text-align: center;
+			max-width: 400px;
+			
+			@include phone{
+				max-width: 80%;
+			}
+			
+			@include tablet{
+				max-width: 80%;
+			}
+			
+			h1 {
+				font-size: 4em;
+				
+				@include phone{
+					font-size: 2em;
+				}
+			}
 
-    .blurb {
+			p {
+				color: grey;
+			}
+		}
 
-      max-width: 25%;
-
-      text-align: center;
-      h1 {
-        font-size: 4em;
-      }
-
-      p {
-        color: grey;
-      }
-    }
-
-    .plus {
-
-      width: 100px;
-      height: 100px;
-      margin: 80px;
-    }
-  }
-
-
+		.plus {
+			flex-grow: 0;
+			flex-shrink: 1;
+			margin: 80px;
+			
+			@include phone{
+				margin: 10px;
+			}
+			
+			@include tablet{
+				margin: 10px;
+			}
+			
+			svg{
+				width: 100px;
+				height: 100px;
+				
+				@include phone{
+					width: 50px !important;
+					height: 50px !important;
+				}
+				
+				@include tablet{
+					margin-top: 10px;
+					width: 50px !important;
+					height: 50px !important;
+				}
+			}
+		}
+	}
 }

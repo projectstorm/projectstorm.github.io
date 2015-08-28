@@ -358,15 +358,157 @@ th {
   padding: 0; }
 
 @font-face {
-  font-family: 'robotolight';
-  src: url("../assets/fonts/roboto/all/roboto_light_macroman/Roboto-Light-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-thin-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-thin-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-thin-webfont.ttf") format("truetype");
+  font-weight: 100;
   font-style: normal; }
 
 @font-face {
-  font-family: 'robotothin';
-  src: url("../assets/fonts/roboto/all/roboto_thin_macroman/Roboto-Thin-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-thinitalic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-thinitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-thinitalic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-thinitalic-webfont.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-light-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-light-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-light-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-lightitalic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-lightitalic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-lightitalic-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-regular-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-regular-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-regular-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-italic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-italic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-italic-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-medium-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-medium-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-medium-webfont.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-mediumitalic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-mediumitalic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-mediumitalic-webfont.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-bold-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-bold-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-bold-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-bolditalic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-bolditalic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-bolditalic-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-black-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-black-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-black-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-black-webfont.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-blackitalic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto/roboto-blackitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto/roboto-blackitalic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto/roboto-blackitalic-webfont.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto_condensed";
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-light-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-light-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-light-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-light-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto_condensed";
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-lightitalic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-lightitalic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-lightitalic-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto_condensed";
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-regular-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-regular-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-regular-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto_condensed";
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-italic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-italic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-italic-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto_condensed";
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-bold-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-bold-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-bold-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto_condensed";
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-bolditalic-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-bolditalic-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_condensed/robotocondensed-bolditalic-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Roboto_slab";
+  src: url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-thin-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-thin-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-thin-webfont.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto_slab";
+  src: url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-light-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-light-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-light-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-light-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto_slab";
+  src: url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-regular-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-regular-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-regular-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto_slab";
+  src: url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-bold-webfont.eot");
+  src: url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-bold-webfont.woff") format("woff"), url("../assets/fonts/roboto/fonts/Roboto_slab/robotoslab-bold-webfont.ttf") format("truetype");
+  font-weight: 700;
   font-style: normal; }
 
 /* Generated by Font Squirrel (http://www.fontsquirrel.com) on August 23, 2015 */
@@ -377,15 +519,22 @@ th {
   font-weight: normal;
   font-style: normal; }
 
+/* !==== Size of a phone ====! */
+* {
+  margin: 0;
+  padding: 0; }
+
 svg {
   style: white;
   fill: white; }
 
 body {
   font-size: 100%;
-  background-color: #1d1d1d;
-  font-family: robotothin;
-  color: white; }
+  color: white;
+  background-color: #1d1d1d; }
+  body * {
+    font-family: Roboto;
+    font-weight: 100 !important; }
   body .layers section, body .layers .primary-layer .splash-section, body .layers .primary-layer .principals-section, body .layers .primary-layer .showcase-section, body .layers .primary-layer .github-section, body .layers .primary-layer .footer-section {
     width: 100%;
     display: -webkit-flex;
@@ -415,14 +564,20 @@ body {
       -ms-flex-align: center;
       align-items: center; }
     body .layers section .trim, body .layers .primary-layer .splash-section .trim, body .layers .primary-layer .principals-section .trim, body .layers .primary-layer .showcase-section .trim, body .layers .primary-layer .github-section .trim, body .layers .primary-layer .footer-section .trim {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: -1px; }
+      @media (max-width: 600px) {
+        body .layers section .trim svg, body .layers .primary-layer .splash-section .trim svg, body .layers .primary-layer .principals-section .trim svg, body .layers .primary-layer .showcase-section .trim svg, body .layers .primary-layer .github-section .trim svg, body .layers .primary-layer .footer-section .trim svg {
+          height: 20px !important; } }
       body .layers section .trim svg, body .layers .primary-layer .splash-section .trim svg, body .layers .primary-layer .principals-section .trim svg, body .layers .primary-layer .showcase-section .trim svg, body .layers .primary-layer .github-section .trim svg, body .layers .primary-layer .footer-section .trim svg {
         display: block; }
   body .layers .primary-layer .splash-section {
-    height: 100vh;
     background-image: url("../assets/img/splash.jpg");
     background-position: center;
     background-size: cover; }
+    @media (min-width: 600px) {
+      body .layers .primary-layer .splash-section {
+        height: 100vh; } }
     body .layers .primary-layer .splash-section .content {
       -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
@@ -465,8 +620,12 @@ body {
         margin-top: 50px; }
         body .layers .primary-layer .splash-section .content > .hero img {
           width: 50%; }
+          @media (max-width: 600px) {
+            body .layers .primary-layer .splash-section .content > .hero img {
+              width: 80% !important;
+              margin-bottom: 30px;
+              margin-top: 30px; } }
       body .layers .primary-layer .splash-section .content > .description {
-        height: 30vh;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.4);
         display: -webkit-flex;
@@ -482,20 +641,32 @@ body {
         -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
         justify-content: flex-start; }
+        @media (min-width: 600px) {
+          body .layers .primary-layer .splash-section .content > .description {
+            height: 30vh; } }
         body .layers .primary-layer .splash-section .content > .description h1 {
           font-size: 2.1em;
           margin-top: 50px; }
+          @media (max-width: 600px) {
+            body .layers .primary-layer .splash-section .content > .description h1 {
+              font-size: 1.4em;
+              max-width: 80%; } }
         body .layers .primary-layer .splash-section .content > .description p {
           margin-top: 20px;
           color: #888888;
           font-size: 1.2em;
           font-style: italic; }
-    body .layers .primary-layer .splash-section .trim {
-      min-height: 70px; }
+          @media (max-width: 600px) {
+            body .layers .primary-layer .splash-section .content > .description p {
+              font-size: 1.0em;
+              padding-bottom: 30px; } }
+          @media (max-width: 1024px) {
+            body .layers .primary-layer .splash-section .content > .description p {
+              font-size: 1.0em;
+              padding-bottom: 30px; } }
   body .layers .primary-layer .principals-section {
     background: #e5e5e5;
-    color: #444444;
-    height: 700px; }
+    color: #444444; }
     body .layers .primary-layer .principals-section .content {
       -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
@@ -506,74 +677,134 @@ body {
         flex: 1; }
         body .layers .primary-layer .principals-section .content .header h1 {
           font-size: 2.4em; }
+          @media (max-width: 600px) {
+            body .layers .primary-layer .principals-section .content .header h1 {
+              font-size: 1.4em; } }
       body .layers .primary-layer .principals-section .content .principals {
-        -webkit-flex: 3;
-        -ms-flex: 3;
-        flex: 3;
-        width: 100%;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between; }
-        body .layers .primary-layer .principals-section .content .principals .row {
-          display: -webkit-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-justify-content: space-around;
-          -ms-flex-pack: distribute;
-          justify-content: space-around;
-          -webkit-align-items: stretch;
-          -ms-flex-align: stretch;
-          align-items: stretch;
-          margin-left: 50px;
-          margin-right: 50px; }
-          body .layers .primary-layer .principals-section .content .principals .row .principal {
-            -webkit-flex: 1;
-            -ms-flex: 1;
-            flex: 1;
-            border-width: 1px;
-            border-image: linear-gradient(#d200ff, #00c6ff) 0 0 0 1;
-            padding-left: 30px;
-            padding-right: 30px; }
-  body .layers .primary-layer .showcase-section {
-    height: 350px; }
-    body .layers .primary-layer .showcase-section .content {
-      -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-      body .layers .primary-layer .showcase-section .content .blurb {
-        max-width: 25%;
-        text-align: center; }
-        body .layers .primary-layer .showcase-section .content .blurb h1 {
-          font-size: 4em; }
-        body .layers .primary-layer .showcase-section .content .blurb p {
-          color: grey; }
-      body .layers .primary-layer .showcase-section .content .plus {
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+        @media (min-width: 600px) {
+          body .layers .primary-layer .principals-section .content .principals {
+            margin-left: 50px;
+            margin-right: 50px; } }
+        body .layers .primary-layer .principals-section .content .principals .principal {
+          -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+          flex-grow: 1;
+          flex-shink: 1;
+          border-width: 1px;
+          border-image: linear-gradient(#d200ff, #00c6ff) 0 0 0 1;
+          padding: 10px 20px;
+          box-sizing: border-box;
+          margin-bottom: 20px; }
+          @media (min-width: 600px) {
+            body .layers .primary-layer .principals-section .content .principals .principal {
+              max-width: 300px; } }
+          @media (max-width: 600px) {
+            body .layers .primary-layer .principals-section .content .principals .principal {
+              padding: 0px;
+              margin: 15px;
+              border-image: linear-gradient(90deg, #d200ff, #00c6ff) 0 0 1 0;
+              padding-bottom: 20px;
+              text-align: center; }
+              body .layers .primary-layer .principals-section .content .principals .principal h2 {
+                padding-bottom: 20px; } }
+  body .layers .primary-layer .showcase-section .content {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    @media (max-width: 600px) {
+      body .layers .primary-layer .showcase-section .content {
+        padding-bottom: 50px; } }
+    @media (max-width: 1024px) {
+      body .layers .primary-layer .showcase-section .content {
+        padding-bottom: 50px; } }
+    body .layers .primary-layer .showcase-section .content .blurb {
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      text-align: center;
+      max-width: 400px; }
+      @media (max-width: 600px) {
+        body .layers .primary-layer .showcase-section .content .blurb {
+          max-width: 80%; } }
+      @media (max-width: 1024px) {
+        body .layers .primary-layer .showcase-section .content .blurb {
+          max-width: 80%; } }
+      body .layers .primary-layer .showcase-section .content .blurb h1 {
+        font-size: 4em; }
+        @media (max-width: 600px) {
+          body .layers .primary-layer .showcase-section .content .blurb h1 {
+            font-size: 2em; } }
+      body .layers .primary-layer .showcase-section .content .blurb p {
+        color: grey; }
+    body .layers .primary-layer .showcase-section .content .plus {
+      -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+      flex-grow: 0;
+      -webkit-flex-shrink: 1;
+      -ms-flex-negative: 1;
+      flex-shrink: 1;
+      margin: 80px; }
+      @media (max-width: 600px) {
+        body .layers .primary-layer .showcase-section .content .plus {
+          margin: 10px; } }
+      @media (max-width: 1024px) {
+        body .layers .primary-layer .showcase-section .content .plus {
+          margin: 10px; } }
+      body .layers .primary-layer .showcase-section .content .plus svg {
         width: 100px;
-        height: 100px;
-        margin: 80px; }
+        height: 100px; }
+        @media (max-width: 600px) {
+          body .layers .primary-layer .showcase-section .content .plus svg {
+            width: 50px !important;
+            height: 50px !important; } }
+        @media (max-width: 1024px) {
+          body .layers .primary-layer .showcase-section .content .plus svg {
+            margin-top: 10px;
+            width: 50px !important;
+            height: 50px !important; } }
   body .layers .primary-layer .github-section {
-    height: 350px;
     background-image: linear-gradient(rgba(210, 0, 255, 0.4), rgba(0, 198, 255, 0.4)), url("../assets/img/splash.jpg");
     background-position: center;
     background-size: cover; }
+    @media (min-width: 600px) {
+      body .layers .primary-layer .github-section {
+        height: 350px; } }
     body .layers .primary-layer .github-section .content {
       -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center; }
       body .layers .primary-layer .github-section .content .blurb {
         text-align: center; }
+        @media (max-width: 600px) {
+          body .layers .primary-layer .github-section .content .blurb {
+            max-width: 80%; } }
       body .layers .primary-layer .github-section .content .social {
         margin-top: 40px;
         width: 70px; }
+        @media (max-width: 600px) {
+          body .layers .primary-layer .github-section .content .social {
+            padding-bottom: 20px; } }
   body .layers .primary-layer .footer-section {
     height: 40px;
     -webkit-flex-direction: row;
@@ -582,6 +813,9 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
+    @media (max-width: 600px) {
+      body .layers .primary-layer .footer-section {
+        font-size: 0.7em; } }
     body .layers .primary-layer .footer-section p {
       color: grey; }
     body .layers .primary-layer .footer-section .name {

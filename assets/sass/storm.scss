@@ -1,6 +1,17 @@
 @import '../../node_modules/normalize.scss/normalize';
 @import "fonts";
 
+/* !==== Size of a phone ====! */
+$setting_phone_width: 600px;
+$setting_tablet_width: 1024px;
+
+@import "utilities";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
 svg {
   style: white;
   fill: white;
@@ -8,14 +19,17 @@ svg {
 
 body {
   font-size: 100%;
-
+  color: white;
+  
   background: {
     color: #1d1d1d;
   }
 
+  *{
+	font-family: Roboto;
+	font-weight: 100 !important;
+  }
 
-  font-family: robotothin;
-  color: white;
 
   .layers {
     section {
@@ -36,7 +50,12 @@ body {
 
       .trim {
         width: 100%;
-
+		margin-bottom: -1px;
+		@include phone{
+			svg{
+				height: 20px !important;
+			}
+		}
         svg {
           display: block;
         }

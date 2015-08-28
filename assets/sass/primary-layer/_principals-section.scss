@@ -1,54 +1,65 @@
 .principals-section {
-  @extend section;
+	@extend section;
 
-  background: #e5e5e5;
-  color: #444444;
+	background: #e5e5e5;
+	color: #444444;
 
-  height: 700px;
 
-  .content {
-    justify-content: space-around;
+	.content {
+		justify-content: space-around;
 
-    .header {
-      flex: 1;
+		.header {
+			flex: 1;
 
-      h1 {
-        font-size: 2.4em;
-      }
-    }
+			h1 {
+				font-size: 2.4em;
+				
+				@include phone{
+					font-size: 1.4em;
+				}
+			}
+		}
 
-    .principals {
+		.principals {
+			display: flex;
+			justify-content: space-around;
+			align-items: stretch;
+			flex-wrap: wrap;
 
-      flex: 3;
-      width: 100%;
+			@include desktop{
+				margin: {
+					left: 50px;
+					right: 50px;
+				}
+			}
 
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
-      .row {
-        display: flex;
-        justify-content: space-around;
-        align-items: stretch;
-
-        margin: {
-          left: 50px;
-          right: 50px;
-        }
-
-        .principal {
-          flex: 1;
-          border-width: 1px;
-
-          border-image: linear-gradient(#d200ff, #00c6ff) 0 0 0 1;
-
-          padding: {
-            left: 30px;
-            right: 30px;
-          }
-        }
-      }
-    }
-  }
+			.principal {
+				
+				flex-grow: 1;
+				flex-shink: 1;
+				border-width: 1px;
+				border-image: linear-gradient(#d200ff, #00c6ff) 0 0 0 1;
+				padding: 10px 20px;
+				box-sizing: border-box;
+				margin-bottom: 20px;
+				
+				
+				@include desktop{
+					max-width: 300px;
+				}
+				
+				@include phone{
+					padding: 0px;
+					margin: 15px;
+					border-image: linear-gradient(90deg,#d200ff, #00c6ff) 0 0 1 0;
+					padding-bottom: 20px;
+					text-align: center;
+					h2{
+						padding-bottom: 20px;
+					}
+				}
+			}
+		}
+	}
 
 }

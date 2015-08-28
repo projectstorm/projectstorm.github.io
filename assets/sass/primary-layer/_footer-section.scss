@@ -1,19 +1,21 @@
 .footer-section {
-  @extend section;
+	@extend section;
 
-  height: 40px;
+	height: 40px;
+	flex-direction: row;
+	justify-content: center;
+	
+	@include phone{
+		font-size: 0.7em;
+	}
 
-  flex-direction: row;
-  //align-items: center;
-  justify-content: center;
+	p {
+		color: grey;
 
-  p {
-    color: grey;
+	}
 
-  }
-
-  .name {
-    text-decoration: none;
-    color: white;
-  }
+	.name {
+		text-decoration: none;
+		color: white;
+	}
 }
